@@ -5,12 +5,12 @@ import {MdFavoriteBorder, MdChat} from 'react-icons/md';
 function App() {
   return (
     <div className="App">
-      <ul style={{fontSize: "2rem"}}>
-        <li><FaReact/></li>
-        <li><FaSass/></li>
-        <li><FaLinux/></li>
-        <li><MdFavoriteBorder/></li>
-        <li><MdChat/></li>
+      <ul style={{fontSize: "3rem"}}>
+        <li style={{color: "lightblue"}}><FaReact/></li>
+        <li style={{color: "pink"}}><FaSass/></li>
+        <li style={{color: "yellow"}}><FaLinux/></li>
+        <li style={{color: "red"}}><MdFavoriteBorder/></li>
+        <li style={{color: "white"}}><MdChat/></li>
       </ul>
     </div>
   );
